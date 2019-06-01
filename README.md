@@ -1,3 +1,26 @@
+# read the R script
+# replace the "path/to/file" with the directory you save the file into
+
+source("path/to/file/assessment3.R")
+
+# create a square matrix m1 by calling makeCacheMatrix()
+
+m <- matrix(c(4,2,7,6),2,2)
+
+m1 <- makeCacheMatrix(m)
+
+# compute the inverse of m1 by calling cacheSolve()
+
+cacheSolve(m1)
+
+## Output will look like as shown below
+
+  [,1] [,2]
+[1,]  0.6 -0.7
+[2,] -0.2  0.4
+
+
+
 ### Introduction
 
 This second programming assignment will require you to write an R
